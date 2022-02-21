@@ -1,5 +1,9 @@
 # Create datasets from scratch to use in DeepLearning
 
+import numpy as np
+import matplotlib.pyplot as plt
+import os
+
 def draw_triangle():
     dx = np.random.uniform(0.1, 0.3)
     dy = np.random.uniform(0.1, 0.3)
